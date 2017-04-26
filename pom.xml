@@ -23,7 +23,12 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.8.7</version>
-        </dependency>
+    </dependency>
+    <dependency>
+       <groupId>org.apache.httpcomponents</groupId>
+       <artifactId>httpclient</artifactId>
+       <version>4.3.5</version>
+   </dependency>    
     <dependency>
 			<groupId>com.smartbear.soapui</groupId>
 			<artifactId>soapui</artifactId>
