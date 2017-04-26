@@ -46,15 +46,15 @@ public class GetUserInput {
 		JLabel heading = new JLabel("Enter all required details");
 		heading.setBounds(140, 0, 250, 30);
 
-		JLabel label1 = new JLabel("Username");
+		final JLabel label1 = new JLabel("Username");
 		label1.setBounds(20, 30, 250, 30);
-		JLabel label2 = new JLabel("Password");
+		final JLabel label2 = new JLabel("Password");
 		label2.setBounds(20, 60, 250, 30);
-		JLabel label3 = new JLabel("Excel Report Path");
+		final JLabel label3 = new JLabel("Excel Report Path");
 		label3.setBounds(20, 90, 250, 30);
-		JLabel label4 = new JLabel("Domain/Project");
+		final JLabel label4 = new JLabel("Domain/Project");
 		label4.setBounds(20, 120, 250, 30);
-		JLabel label5 = new JLabel("TestsetID");
+		final JLabel label5 = new JLabel("TestsetID");
 		label5.setBounds(20, 150, 250, 30);
 //		JLabel label6 = new JLabel("SoapUi Project Path");
 //		label6.setBounds(20, 180, 250, 30);
