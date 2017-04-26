@@ -1,0 +1,16 @@
+2017-04-26 11:49:08,835 WARN  [SoapUI] Missing folder [C:\Users\k.andapally\ReportingBamboo\ALM-SeleniumIntegration\ext] for external libraries
+2017-04-26 11:49:08,866 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\k.andapally\soapui-settings.xml]
+2017-04-26 11:49:10,387 INFO  [WsdlProject] Loaded project from [file:/C:/Users/k.andapally/ReportingBamboo/ALM-SeleniumIntegration/src/test/soapui/ALM_Rest_Project.xml]
+2017-04-26 11:49:12,326 INFO  [log] Executed IsAuthorized service - Reading property value from response : JSESSIONID=1gvtto96zlhbg1h7b10knh0p47
+2017-04-26 11:49:13,962 INFO  [log] Executed Login service - Reading property value from response : LWSSO_COOKIE_KEY=iV60igFcz36dckevIsbOY9jpaHbEl8iJ2J6pIoCg2KMutuMOfO9pHzBT_Ejh2ez_RiNSA7nXyLcL-sPXo8uOUDKz935FBK2zySP2dZF372UgYHEfKtVnv1w4j0NIYPjc8SoG5WH-4tcUGNBA5zkSPRjiF0kZdp6kY118rRoEj0ygaRQ84In8BdRusQcdUttIZQLOhoozUybrigUo868H386VkepTquodBfbTJPkjb5zmhZmiaNbnJIU1IIcA5fiDF_mQcMUtkoXWfVIFjrzSYl1a5AAYOapwZTzQqkrkh4yKBim1AuImikkUNJxbO9Fp
+2017-04-26 11:49:15,359 INFO  [log] ******Executed SiteSession service - Reading following values from response**** 
+2017-04-26 11:49:15,359 INFO  [log] SESSIONID JSESSIONID=1y0bfbkecw99c19iaim78bzycq
+2017-04-26 11:49:15,359 INFO  [log] QCSession QCSession=ODI3OTg5NTtaWVdNem1IelBsc214T3lzQm9kRm9nKio7UkVTVCBjbGllbnQ7NTsg
+2017-04-26 11:49:15,360 INFO  [log] ALM_USER ALM_USER=7aca5125577a32eb5b9fe795b7bec9f2cb26ea5d0e3b635cf589df12eabd59a6
+2017-04-26 11:49:15,360 INFO  [log] XSRF_TOKEN XSRF-TOKEN=cd6be3a45c69f268c476a7893a95c99a2449eab585d89faf11b8ca14029e0e85
+2017-04-26 11:49:15,416 INFO  [log] Excelsheet Path :C:/Users/k.andapally/ReportingBamboo/ALM-SeleniumIntegration/src/test/java/com/disney/alm/test/ExecutionResults.xlsx
+2017-04-26 11:49:15,441 INFO  [log] Total rows of data 2
+2017-04-26 11:49:15,442 INFO  [log] Total cols of data 3
+2017-04-26 11:49:15,442 INFO  [log] Test set id - for  WDW 17435
+2017-04-26 11:49:16,565 INFO  [log] TestInstanceId : 108849
+2017-04-26 11:49:18,665 INFO  [log] Updated test result for test id 12918 as Failed
