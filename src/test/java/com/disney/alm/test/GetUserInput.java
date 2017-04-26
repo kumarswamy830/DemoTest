@@ -33,7 +33,7 @@ public class GetUserInput {
 	public static String dProject = null;
 	public static String[] domainProject = new String[2];
 
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 
 		final JFrame outFrame = new JFrame("ALM connection");
 
@@ -46,28 +46,28 @@ public class GetUserInput {
 		JLabel heading = new JLabel("Enter all required details");
 		heading.setBounds(140, 0, 250, 30);
 
-		final JLabel label1 = new JLabel("Username");
+		JLabel label1 = new JLabel("Username");
 		label1.setBounds(20, 30, 250, 30);
-		final JLabel label2 = new JLabel("Password");
+		JLabel label2 = new JLabel("Password");
 		label2.setBounds(20, 60, 250, 30);
-		final JLabel label3 = new JLabel("Excel Report Path");
+		JLabel label3 = new JLabel("Excel Report Path");
 		label3.setBounds(20, 90, 250, 30);
-		final JLabel label4 = new JLabel("Domain/Project");
+		JLabel label4 = new JLabel("Domain/Project");
 		label4.setBounds(20, 120, 250, 30);
-		final JLabel label5 = new JLabel("TestsetID");
+	    JLabel label5 = new JLabel("TestsetID");
 		label5.setBounds(20, 150, 250, 30);
 //		JLabel label6 = new JLabel("SoapUi Project Path");
 //		label6.setBounds(20, 180, 250, 30);
 
-		JTextField field1 = new JTextField();
+		final JTextField field1 = new JTextField();
 		field1.setBounds(140, 30, 400, 30);
-		JPasswordField field2 = new JPasswordField();
+		final JPasswordField field2 = new JPasswordField();
 		field2.setBounds(140, 60, 400, 30);
-		JTextField field3 = new JTextField();
+		final JTextField field3 = new JTextField();
 		field3.setBounds(140, 90, 400, 30);
-		JTextField field4 = new JTextField();
+		final JTextField field4 = new JTextField();
 		field4.setBounds(140, 120,400, 30);
-		JTextField field5 = new JTextField();
+		final JTextField field5 = new JTextField();
 		field5.setBounds(140, 150, 400, 30);
 //		JTextField field6 = new JTextField();
 //		field6.setBounds(140, 180, 400, 30);
