@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.disney.alm.test.DemoTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.disney.alm.test.DemoTest">
+        <methods>
+          <include name="iD_12918_loginTest"/>
+          <include name="updateResult"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.disney.alm.test.DemoTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.disney.alm.test.DemoTest] -->

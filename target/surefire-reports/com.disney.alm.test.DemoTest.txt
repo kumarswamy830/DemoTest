@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: com.disney.alm.test.DemoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 3.357 sec <<< FAILURE!
+openBrowser(com.disney.alm.test.DemoTest)  Time elapsed: 3.192 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/http/conn/HttpClientConnectionManager
+	at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.getDefaultHttpClientFactory(ApacheHttpClient.java:252)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.<init>(ApacheHttpClient.java:229)
+	at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:96)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:70)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:58)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:87)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at com.disney.alm.test.DemoTest.openBrowser(DemoTest.java:41)
+Caused by: java.lang.ClassNotFoundException: org.apache.http.conn.HttpClientConnectionManager
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 44 more
+
+updateResult(com.disney.alm.test.DemoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.disney.alm.test.DemoTest.updateResult(DemoTest.java:90)
+

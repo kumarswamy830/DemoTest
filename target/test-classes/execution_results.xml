@@ -1,0 +1,17 @@
+
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Scripts_for_dlr" parallel="methods"
+	thread-count="3" verbose="2" allow-return-values="true"
+	configfailurepolicy="continue">
+	<test name="Scripts_for_wdw" preserve-order="true">
+		
+		<classes>
+		
+			
+			<class name="com.disney.alm.test.DemoTest"/>
+		    
+			
+			
+		</classes>
+	</test>
+</suite>
