@@ -31,7 +31,7 @@ public class GenerateExcelReport {
 		
 		try {
 			
-			FileOutputStream fileOut = new FileOutputStream(System.getProperty("user.dir")+"\\DemoTest\\src\\test\\java\\com\\disney\\alm\\test\\ExecutionResults.xlsx");
+			FileOutputStream fileOut = new FileOutputStream(System.getProperty("user.dir")+"\\src\\test\\java\\com\\disney\\alm\\test\\ExecutionResults.xlsx");
 			workbook = new XSSFWorkbook();
 			XSSFSheet worksheet = workbook.createSheet("TestResults");
 
@@ -100,7 +100,7 @@ public class GenerateExcelReport {
 	
 	public void updateResult(String testName,String testID,String result){
 		
-        Xls_Reader writeResults = new Xls_Reader(System.getProperty("user.dir")+"\\DemoTest\\src\\test\\java\\com\\disney\\alm\\test\\ExecutionResults.xlsx");
+        Xls_Reader writeResults = new Xls_Reader(System.getProperty("user.dir")+"\\src\\test\\java\\com\\disney\\alm\\test\\ExecutionResults.xlsx");
 		
 		writeResults.setCellData("TestResults","TestCase Name", 2, testName);
 		writeResults.setCellData("TestResults","TestID", 2, testID);

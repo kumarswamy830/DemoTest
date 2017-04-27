@@ -56,7 +56,7 @@ public class ALMTestResult {
 		// Send variable to Soap Project
 		project.setPropertyValue("Username", System.getProperty("username"));
 		project.setPropertyValue("Password",System.getProperty("password"));
-		project.setPropertyValue("ExcelPath",System.getProperty("user.dir")+"\\DemoTest\\src\\test\\java\\com\\disney\\alm\\test\\ExecutionResults.xlsx");
+		project.setPropertyValue("ExcelPath",System.getProperty("user.dir")+"\\src\\test\\java\\com\\disney\\alm\\test\\ExecutionResults.xlsx");
 		project.setPropertyValue("Domain", System.getProperty("domain"));
 		project.setPropertyValue("Project", System.getProperty("project"));
 		project.setPropertyValue("TestSetID", System.getProperty("testsetid"));
