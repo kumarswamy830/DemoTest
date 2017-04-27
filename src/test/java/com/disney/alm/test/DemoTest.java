@@ -54,8 +54,12 @@ public class DemoTest {
 			testName = new Object(){}.getClass().getEnclosingMethod().getName();
 
 			driver.get(System.getProperty("baseUrl"));
+			
+			System.out.println("Naviagted to "+System.getProperty("baseUrl"));
 
 			driver.findElement(By.className("signIn")).click();
+			
+			System.out.println("Clicked on sign in button");
 
 			driver.findElement(By.id("loginPageUsernam")).sendKeys(
 					"demoTestone@ngetestmail.com");
@@ -75,6 +79,8 @@ public class DemoTest {
 		} catch (Exception ex) {
 
 			result = "Failed";
+			
+			System.out.println("Failed reason: "+ex.getMessage());
 
 			Assert.fail();
 
